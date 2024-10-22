@@ -1,0 +1,54 @@
+p {
+    color: blueviolet;
+}
+
+.mobil {
+    color: bisque;
+}
+
+#avanza{
+    color: rgb(199, 197, 201);
+}
+#ayla{
+    color: brown;
+}
+body{
+    /* background-color: #0f0c0c; */
+    /* background: linear-gradient(90deg, blueviolet, yellow, black); */
+    background: url(img/pexels-designecologist-1779487.jpg)
+}
+.text{
+    color: aliceblue;
+    font-family: "Impact", Arial ;
+    text-shadow: -4px 4px 4px red;
+    text-align: center;
+}
+
+.konten {
+    background-color: aquamarine;
+    width: 90%;
+    height: 90%;
+    /* align-content: center; */
+    padding: 10px;
+    margin:  10px;
+    border: 10px solid rgb(152, 141, 131);
+    border-radius: 20px;
+}
+
+.text::first-letter{
+    font-size: 40px;
+}
+
+.text:hover::first-letter{
+    color: antiquewhite;
+}
+.text:hover .k{
+    color: antiquewhite;
+}
+.konten:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+p::first-letter{
+    color: azure;
+}
